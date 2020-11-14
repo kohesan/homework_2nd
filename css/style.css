@@ -1,0 +1,134 @@
+/* ここから下に記載していく */
+body{
+    background-color:#ffffff;
+}
+
+.mainvisual{
+    height: 200px;
+    background: url("../img/main.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainvisual_title{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+}
+
+/* チーズ職人養成学校「チーズアカデミーTOKYO」 */
+.mainvisual_subtitle{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.about_title{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 217, 0);
+    margin-bottom: 10px;
+}
+
+.about_subtitle{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.about_text{
+    margin-bottom: 10px;
+}
+
+main{
+    width:700px;
+    margin:0 auto;
+    text-align:center;
+    font-weight:bold;
+}
+
+.dealer{
+    height:160px;
+}
+
+.dealer img{
+    width:150px;
+    height:160px;
+}
+
+.player,.container{
+    display:flex;
+}
+
+.player{
+    justify-content:space-between;
+}
+
+.player img{
+    width:100px;
+    height:110px;
+    cursor:pointer;
+    user-select:none;
+}
+
+.container1{
+    margin:30px 0;
+    height:100px;
+    line-height:100px;
+    justify-content:space-around;
+}
+
+.container2{
+    margin:30px 300px;
+    height:100px;
+    line-height:100px;
+    justify-content:space-around;
+}
+
+.result{
+    font-size:48px;
+    font-family:Arial, sans-serif;
+}
+
+#winButton{
+    width:100px;
+    font-size:18px;
+    border-radius:50%;
+    background-color:rgb(255, 203, 143);
+    border:3px solid #fff;
+    box-sizing: border-box;
+}
+
+#winButton:hover{
+    opacity:0.8;
+    cursor:pointer;
+    user-select:none;
+}
+
+#resetButton{
+    width:100px;
+    font-size:18px;
+    border-radius:50%;
+    background-color:pink;
+    border:3px solid #fff;
+    box-sizing: border-box;
+}
+
+#resetButton:hover{
+    opacity:0.8;
+    cursor:pointer;
+    user-select:none;
+}
+
+.hidden{
+    display:none;
+}
