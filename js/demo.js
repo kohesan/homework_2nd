@@ -72,7 +72,7 @@ var mapContainer = document.getElementById('map'),
 
 //Step 1: initialize communication with the platform
 var platform = new H.service.Platform({
-  apikey: 'JG56o887gSC9L0qdQQqFzc-KYrDhQ87aRUomqh16q80'
+  apikey: 'xxx'
 });
 
 var defaultLayers = platform.createDefaultLayers();
